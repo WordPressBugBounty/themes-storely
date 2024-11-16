@@ -4,7 +4,7 @@ Theme URI: https://sellerthemes.com/storely-free/
 Author: Seller Themes
 Author URI: https://sellerthemes.com/
 Description: Storely is a WooCommerce multipurpose WordPress theme designed for shopping online stores. Storely is suitable for eCommerce websites such as fashion, suit, sneaker, shoes, glasses, accessories, supermarket … or anything you want. The theme is built with lots of cool features and fully eCommerce functionalities in Pro version. Visit Storely pro demo. https://preview.sellerthemes.com/pro/storely
-Version: 14.8
+Version: 14.9
 Tested up to: 6.6
 Requires PHP: 5.6
 Requires at least: 4.7
@@ -533,4 +533,8 @@ table.wc-block-cart-items .wc-block-cart-items__row .wc-block-components-product
 
 .wc-block-mini-cart__empty-cart-wrapper .wc-block-mini-cart__shopping-button:active {
     color: #fff;
+}
+
+.wc-block-featured-product__price .woocommerce-Price-amount.amount {
+	text-decoration: none;
 }
