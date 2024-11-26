@@ -2,10 +2,10 @@
 
 Contributors: Seller Themes
 Requires at least: 4.7
-Tested up to: 6.6.2
+Tested up to: 6.7
 Requires PHP: 5.6
-Stable tag: 14.9
-Version: 14.9
+Stable tag: 15.0
+Version: 15.0
 License: GPLv3 or later
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 Tags: one-column, two-columns, right-sidebar, flexible-header, custom-background, custom-colors, custom-header, custom-menu,  custom-logo, featured-image-header, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready, blog, e-commerce, portfolio, editor-style, grid-layout
@@ -115,6 +115,9 @@ All other Images have been used in images folder, Created by Seller Themes. Also
 
 
 == Changelog ==
+
+@version 15.0
+* WP Latest Compatibility 6.7
 
 @version 14.9
 * Style Issue Fixed
