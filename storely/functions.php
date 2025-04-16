@@ -5,7 +5,7 @@ function storely_setup() {
 /**
  * Define Theme Version
  */
-define( 'STORELY_THEME_VERSION', '18.8' );
+define( 'STORELY_THEME_VERSION', '18.9' );
 
 // Root path/URI.
 define( 'STORELY_PARENT_DIR', get_template_directory() );
