@@ -4,8 +4,8 @@ Theme URI: https://sellerthemes.com/storely-free/
 Author: Seller Themes
 Author URI: https://sellerthemes.com/
 Description: Storely is a WooCommerce multipurpose WordPress theme designed for shopping online stores. Storely is suitable for eCommerce websites such as fashion, suit, sneaker, shoes, glasses, accessories, supermarket … or anything you want. The theme is built with lots of cool features and fully eCommerce functionalities in Pro version. Visit Storely pro demo. https://preview.sellerthemes.com/pro/storely
-Version: 22.9
-Tested up to: 6.8
+Version: 25.2
+Tested up to: 6.9
 Requires PHP: 5.6
 Requires at least: 4.7
 License: GPLv3 or later
@@ -837,4 +837,100 @@ a.wp-block-button__link:focus {
 
 .wp-block-latest-comments li a:not(:hover, :focus) {
 	color: inherit;
+}
+
+.wc-block-components-product-sale-badge {
+	text-decoration: none;
+}
+
+.post.grid-view-news-area ul.wp-block-rss {
+	list-style: disc;
+}
+
+.widget .logged-in.wp-block-loginout a,
+.widget .logged-out.wp-block-loginout a {
+	color: inherit;
+}
+
+.post .wp-block-archives li {
+	padding-bottom: 0.625rem;
+}
+
+.widget .wp-block-embed .wp-element-caption a {
+	color: inherit;
+}
+
+.wp-block-navigation .wp-block-navigation-item__content:hover,
+.wp-block-navigation .wp-block-navigation-item__content:focus {
+	text-decoration: none;
+}
+
+.sidebar .widget .textwidget a span{
+	color: inherit;
+}
+
+.wp-block-file .wp-block-file__button {
+   text-decoration: none;
+   border: none;
+}
+
+select:focus,
+.form-control:focus {
+	border-color: rgb(255, 33, 79);
+	box-shadow: 0 0 5px rgba(255, 33, 79, 1);
+}
+
+.wp-calendar-nav .wp-calendar-nav-prev > a:hover,
+.wp-calendar-nav .wp-calendar-nav-next > a:hover,
+.wp-calendar-nav .wp-calendar-nav-prev > a:focus,
+.wp-calendar-nav .wp-calendar-nav-next > a:focus {
+	text-decoration: none;
+}
+
+.input-group > .form-control:focus,
+.input-group > .custom-select:focus,
+.input-group > .custom-file:focus {
+	z-index: 0;
+}
+
+.sidebar .widget .wp-block-group .wp-block-embed {
+	margin: 0;
+}
+
+table.wc-block-cart-items .wc-block-cart-items__row .wc-block-cart-item__quantity .wc-block-cart-item__remove-link {
+ text-decoration: none !important;
+}
+
+.footer-sidebar .widget .wp-block-group .wp-block-verse {
+ 	    background: #202020;
+ 	    color: #cccccc;
+}
+
+.widget .wp-block-quote {
+	color: inherit;
+}
+
+.sidebar .widget .wp-block-group .wp-block-preformatted a {
+	text-decoration: underline;
+}
+
+.footer-sidebar .widget .wp-block-group .is-vertical a {
+	color: inherit;
+}
+
+.entry-content ul.wp-block-post-template li.wp-block-post:hover {
+	box-shadow: none;
+}
+
+.entry-content ul.wp-block-post-template {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.wp-block-image .alignleft figcaption {   
+	text-align: left; 
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: inherit;
 }
